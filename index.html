@@ -1,0 +1,10 @@
+<html>
+<body>
+  <h2>Bookmarklets for making videos faster<h2>
+  <div><em>drag em to your toolbar, go to a video playing site, and click to on the link (on your toolbar) to change the video speed.</em></div>
+  <a href="javascript:(function(){document.getElementsByTagName('video')[0].playbackRate=2}())">2</a>
+  <a href="javascript:(function(){document.getElementsByTagName('video')[0].playbackRate=(document.getElementsByTagName('video')[0].playbackRate+.25)%4.25}())">increase</a>
+  <a href="javascript:(function(){document.getElementsByTagName('video')[0].playbackRate=(document.getElementsByTagName('video')[0].playbackRate-.25)%4.25}())">decrease</a>
+  <a href="javascript:(function(){alert(document.getElementsByTagName('video')[0].playbackRate)}())">alert</a>
+</body>
+</html>
